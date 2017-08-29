@@ -1,0 +1,39 @@
+{
+  "name": "zns-iap",
+  "version": "0.7.4",
+  "description": "In-app purchases for Node.js (Apple, Google, Roku) fork from https://github.com/Wizcorp/node-iap",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-Lin/zns-iap.git"
+  },
+  "keywords": [
+    "iap",
+    "apple",
+    "google",
+    "roku",
+    "android",
+    "purchase",
+    "itunes"
+  ],
+  "author": "Alex Lin <alex@zns.me> (http://zns.me)",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "0.0.8",
+    "jwt-simple": "0.2.0",
+    "form-urlencoded": "0.0.6",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "jshint": "2.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Alex-Lin/zns-iap/issues"
+  },
+  "homepage": "https://github.com/Alex-Lin/zns-iap#readme",
+  "bin": {
+  }
+}
