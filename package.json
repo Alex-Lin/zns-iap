@@ -1,6 +1,6 @@
 {
   "name": "zns-iap",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "In-app purchases for Node.js (Apple, Google, Roku) fork from https://github.com/Wizcorp/node-iap",
   "main": "index.js",
   "scripts": {

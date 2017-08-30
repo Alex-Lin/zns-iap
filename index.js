@@ -24,7 +24,7 @@ exports.verifyPayment = function (platform, payment, cb) {
 
 	engine.verifyPayment(payment, function (error, result) {
 		if (error) {
-			return cb(error);
+			return cb(error, result);
 		}
 
 		result.platform = platform;
